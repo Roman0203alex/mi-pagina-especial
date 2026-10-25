@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#050505">
+  <meta name="description" content="Una dedicatoria especial para Dayra por el 25 de octubre.">
+  <title>Para Dayra — 25 de octubre</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="monogram" href="#inicio" aria-label="Ir al inicio">D</a>
+    <span>25 · 10</span>
+    <button class="sound-toggle" id="soundToggle" type="button" aria-label="Reproducir música">
+      <span class="sound-icon">▶</span><span class="sound-label">Música</span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">25 de octubre · un detalle para ti</p>
+        <h1>DAYRA</h1>
+        <p class="hero-line">Mi persona <em>favorita.</em></p>
+        <p class="intro">Hoy no quería regalarte flores comunes, sino algo que celebrara tu estilo, tu sonrisa y esa forma tan tuya de hacer especial cualquier momento.</p>
+        <button class="play-button" id="playButton" type="button">
+          <span class="play-disc" aria-hidden="true">▶</span>
+          <span><small>TOCA PARA ESCUCHAR</small>Mi Persona Favorita</span>
+        </button>
+      </div>
+
+      <figure class="hero-photo reveal">
+        <img src="dayra-06.jpg" alt="Dayra sonriendo frente al espejo">
+        <figcaption>Para la chica que hace bonito hasta lo cotidiano.</figcaption>
+      </figure>
+
+      <div class="scroll-cue" aria-hidden="true"><span></span>desliza</div>
+    </section>
+
+    <section class="bouquet" aria-labelledby="bouquet-title">
+      <div class="bouquet-art reveal" aria-hidden="true">
+        <span class="cosmetic c1">💄</span><span class="cosmetic c2">✦</span>
+        <span class="cosmetic c3">🖌️</span><span class="cosmetic c4">♡</span>
+        <span class="cosmetic c5">💋</span><span class="cosmetic c6">✧</span>
+        <span class="wrap left"></span><span class="wrap right"></span><span class="ribbon">DAYRA</span>
+      </div>
+      <div class="bouquet-copy reveal">
+        <p class="section-number">01 / EL DETALLE</p>
+        <h2 id="bouquet-title">Un ramo tan único como tú.</h2>
+        <p>Dicen que el 25 de octubre se regalan ramos de maquillaje. El mío viene hecho de recuerdos, sonrisas y un mensaje sencillo:</p>
+        <blockquote>“No necesitas nada para brillar, pero mereces todos los detalles bonitos.”</blockquote>
+      </div>
+    </section>
+
+    <section class="memories" aria-labelledby="memories-title">
+      <div class="section-heading reveal">
+        <p class="section-number">02 / TUS MOMENTOS</p>
+        <h2 id="memories-title">Siete formas de decir<br><em>qué bonita eres.</em></h2>
+        <p>Toca o pasa el cursor por las fotos para devolverles el color.</p>
+      </div>
+
+      <div class="gallery">
+        <figure class="photo-card tall reveal"><img src="dayra-01.jpg" alt="Retrato de Dayra con camiseta roja"><figcaption>Tu mirada</figcaption></figure>
+        <figure class="photo-card reveal"><img src="dayra-04.jpg" alt="Dayra guiñando un ojo"><figcaption>Tu ternura</figcaption></figure>
+        <figure class="photo-card wide reveal"><img src="dayra-07.jpg" alt="Dayra haciendo una expresión alegre"><figcaption>Tu alegría</figcaption></figure>
+        <figure class="photo-card reveal"><img src="dayra-02.jpg" alt="Selfie de Dayra frente al espejo"><figcaption>Tu estilo</figcaption></figure>
+        <figure class="photo-card tall reveal"><img src="dayra-05.jpg" alt="Dayra en un día soleado"><figcaption>Tu esencia</figcaption></figure>
+        <figure class="photo-card reveal"><img src="dayra-03.jpg" alt="Retrato de Dayra con su teléfono"><figcaption>Tu forma de ser</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="letter" aria-labelledby="letter-title">
+      <div class="letter-date reveal"><span>25</span><small>OCTUBRE</small></div>
+      <div class="letter-copy reveal">
+        <p class="section-number">03 / PARA TI</p>
+        <h2 id="letter-title">Dayra,</h2>
+        <p>Que este pequeño detalle te recuerde lo especial que eres. Sigue sonriendo, siendo auténtica y llenando de alegría cada lugar al que llegas.</p>
+        <p>No hace falta una fecha para admirarte, pero hoy es una buena excusa para decírtelo.</p>
+        <p class="signature">Con mucho cariño ♡</p>
+      </div>
+    </section>
+
+    <section class="finale">
+      <img src="dayra-06.jpg" alt="Dayra sonriendo">
+      <div class="finale-overlay"></div>
+      <div class="finale-copy reveal">
+        <p>ESTE RAMO ES PARA</p>
+        <h2>DAYRA</h2>
+        <span>porque tú eres el detalle más bonito.</span>
+      </div>
+    </section>
+  </main>
+
+  <footer><span>Hecho especialmente para Dayra</span><span>25 · 10</span></footer>
+
+  <audio id="song" loop preload="metadata">
+    <source src="mi-persona-favorita.mp3" type="audio/mpeg">
+  </audio>
+  <script src="script.js"></script>
+</body>
+</html>
